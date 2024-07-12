@@ -51,7 +51,7 @@ export default function Home() {
             </button>
           </div>
           <div className="download-btn1">
-            <button className="flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px] mt-[140px] mb-[60px]">
+            <button className="flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px]  md:mt-[140px] mb-[60px]">
               <span>
                 <img width={27} src="/assets/Apple.svg" alt="" />
               </span>
@@ -91,29 +91,29 @@ export default function Home() {
 
         {/* mobile screen mobile-img */}
         <div className="md:hidden flex items-center justify-center w-full fade-in-right mobile-img-mobile px-4">
-        <div className="img-box w-full h-full flex items-center">
-          <img
-            src="/assets/phone.avif"
-            alt="Phone 1"
-            className="max-w-sm rounded-lg"
-            style={{ zIndex: 1 }}
-          />
+          <div className="img-box w-full h-full flex items-center">
+            <img
+              src="/assets/phone.avif"
+              alt="Phone 1"
+              className="max-w-sm rounded-lg"
+              style={{ zIndex: 1 }}
+            />
+          </div>
+        </div>
+
+        <div className="md:hidden download-btn2">
+          <button className="shadow-lg flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px] mt-[140px] mb-[60px]">
+            <span>
+              <img width={27} src="/assets/Apple.svg" alt="" />
+            </span>
+            <span className="flex flex-col items-start">
+              <p className="text-[10px] ms-[5px] mb-[-8px]">Download on the</p>
+              <h3 className="text-[24px] leading-0">App Store</h3>
+            </span>
+          </button>
         </div>
       </div>
-
-      <div className="hidden download-btn2">
-        <button className="shadow-lg flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px] mt-[140px] mb-[60px]">
-          <span>
-            <img width={27} src="/assets/Apple.svg" alt="" />
-          </span>
-          <span className="flex flex-col items-start">
-            <p className="text-[10px] ms-[5px] mb-[-8px]">Download on the</p>
-            <h3 className="text-[24px] leading-0">App Store</h3>
-          </span>
-        </button>
-      </div>
-      </div>
-      <footer className="flex px-8 py-[30px] text-black">
+      <footer className="flex px-8 pt-[170px] pb-[30px] md:py-[30px] text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
