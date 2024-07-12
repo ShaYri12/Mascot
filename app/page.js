@@ -21,7 +21,7 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="flex relative main min-h-screen items-center lg:items-start lg:h-[1000px]   md:px-8 px-4 pb-4 bg-white w-full ">
+      <div className="flex relative main min-h-screen items-center lg:items-start lg:h-[800px]   md:px-8 px-4 pb-4 bg-white w-full ">
         <main className="main-div flex flex-col items-start justify-center pt-28 z-50 w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
             <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] uppercase">
@@ -69,21 +69,21 @@ export default function Home() {
             <img
               src="/assets/phone.avif"
               alt="Phone 1"
-              className="max-w-lg rounded-lg"
+              className="max-w-sm  2xl:max-w-lg rounded-lg"
               style={{ zIndex: 2 }}
             />
             <img
               src="/assets/phone.avif"
               alt="Phone 2"
-              className="max-w-lg rounded-lg"
+              className="max-w-sm  2xl:max-w-lg  rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
-          <div className="w-full h-full  rotate-[30deg] pt-[50%]">
+          <div className="w-full h-full  rotate-[30deg] pt-[70%]">
             <img
               src="/assets/phone.avif"
               alt="Phone 3"
-              className="max-w-lg rounded-lg"
+              className="max-w-sm  2xl:max-w-lg  rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
