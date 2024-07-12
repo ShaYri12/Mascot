@@ -32,13 +32,13 @@ export default function Home() {
           </button>
         </div>
         <div>
-          <button className="flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[60px] w-[215px]">
+          <button className="flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px] mt-[100px]">
             <span>
-              <img src="/assets/Apple.svg" alt="" />
+              <img width={27} src="/assets/Apple.svg" alt="" />
             </span>
             <span className="flex flex-col items-start">
-              <p>Download on the</p>
-              <h3>App Store</h3>
+              <p className="text-[10px] ms-[5px] mb-[-8px]">Download on the</p>
+              <h3 className="text-[24px] leading-0">App Store</h3>
             </span>
           </button>
         </div>
