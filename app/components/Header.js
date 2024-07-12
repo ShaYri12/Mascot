@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex items-center md:p-[35px] px-4 py-[20px]">
         <img
           className="md:w-[173px] w-[133px]"
-          src="/assets/mascotlogo.avif"
+          src="/assets/mascotLogo.avif"
           alt=""
         />
       </div>
