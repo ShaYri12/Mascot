@@ -64,7 +64,7 @@ export default function Home() {
             </button>
           </div>
         </main>
-        <div className=" absolute -top-[400px] -right-[300px] z-50 flex gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
+        <div className=" absolute -top-[400px] -right-[300px] z-50 hidden md:flex gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
           <div className="w-full h-full flex gap-[30px] flex-col items-center rotate-[30deg]">
             <img
               src="/assets/phone.avif"
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
 
         {/* mobile screen mobile-img */}
-        {/* <div className="md:hidden flex items-center justify-center w-full fade-in-right mobile-img-mobile px-4">
+        <div className="md:hidden flex items-center justify-center w-full fade-in-right mobile-img-mobile px-4">
         <div className="img-box w-full h-full flex items-center">
           <img
             src="/assets/phone.avif"
@@ -111,7 +111,7 @@ export default function Home() {
             <h3 className="text-[24px] leading-0">App Store</h3>
           </span>
         </button>
-      </div> */}
+      </div>
       </div>
       <footer className="flex px-8 py-[30px] text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
