@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <header className="flex items-center w-full">
-      <div className="flex items-center p-[35px]">
+      <div className="flex items-center md:p-[35px] px-4 py-[20px]">
         <img
-          className="w-[173px] h-[25px]"
+          className="md:w-[173px] w-[133px]"
           src="/assets/mascotlogo.avif"
           alt=""
         />
