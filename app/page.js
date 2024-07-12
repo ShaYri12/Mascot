@@ -28,11 +28,11 @@ export default function Home() {
             className="w-64 px-[22px] py-[13px] text-[14px] border-2 border-[#000000] rounded-full border-gray-300"
           />
           <button className="text-white bg-[#2f63f4] text-[15px] font-[500] rounded-full h-[50px] w-[215px]">
-            signup for updates
+            Signup for updates
           </button>
         </div>
         <div>
-          <button className="flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px] mt-[100px]">
+          <button className="flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px] mt-[140px] mb-[60px]">
             <span>
               <img width={27} src="/assets/Apple.svg" alt="" />
             </span>
