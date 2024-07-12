@@ -21,8 +21,8 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="flex relative main min-h-screen h-[1000px]   md:px-8 px-4 pb-4 bg-white w-full ">
-        <main className="main-div flex flex-col items-start justify-center pt-28 z-50 w-full gap-[30px] max-w-[60%]">
+      <div className="flex relative main min-h-screen items-center lg:items-start lg:h-[1000px]   md:px-8 px-4 pb-4 bg-white w-full ">
+        <main className="main-div flex flex-col items-start justify-center pt-28 z-50 w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
             <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] uppercase">
               Updates
@@ -64,7 +64,7 @@ export default function Home() {
             </button>
           </div>
         </main>
-        <div className=" absolute -top-[400px] -right-[300px] z-50 hidden md:flex gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
+        <div className=" absolute -top-[400px] -right-[300px] z-50 hidden lg:flex gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
           <div className="w-full h-full flex gap-[30px] flex-col items-center rotate-[30deg]">
             <img
               src="/assets/phone.avif"
@@ -113,7 +113,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <footer className="flex px-8 pt-[170px] pb-[30px] md:py-[30px] text-black">
+      <footer className="flex px-8 py-[30px] text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
