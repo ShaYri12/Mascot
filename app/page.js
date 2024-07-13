@@ -44,10 +44,10 @@ export default function Home() {
             <input
               type="email"
               placeholder="johndoe@gmail.com"
-              className="w-64 px-[22px] py-[13px] text-[14px] border-2 border-[#000000] rounded-full"
+              className="w-[300px] px-[22px] py-[13px] text-[14px] border-2 border-[#000000] rounded-full"
             />
             <button className="shadow-md text-white bg-[#2f63f4] bg-opacity-100 hover:bg-opacity-90 text-[15px] font-[500] rounded-full h-[50px] w-[215px] transition duration-300">
-              Signup for updates
+              Get early access
             </button>
           </div>
         </main>
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="flex px-8 py-10 md::pt-40 md:pb-10 z-30 text-black">
+      <footer className="flex lg:px-20 lg:py-20 md:px-8 px-4 py-10 text-[11px] z-30 text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
