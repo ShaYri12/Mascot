@@ -21,10 +21,10 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="flex relative main  items-center lg:items-start    md:px-8 px-4  bg-white w-full ">
-        <main className="main-div flex flex-col z-30 items-start justify-center pt-28  w-full gap-[30px] lg:max-w-[60%]">
+      <div className="flex relative main  items-center lg:items-start   lg:px-20 md:px-8 px-4  bg-white w-full ">
+        <main className="main-div flex flex-col z-30 items-start justify-center pb-44  w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
-            <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] uppercase">
+            <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] ">
               Updates
             </span>
             <p className="text-[14px] font-[500] text-black">
@@ -51,7 +51,7 @@ export default function Home() {
             </button>
           </div>
         </main>
-        <div className=" absolute -top-[400px] -right-[300px] z-10 customhideImage gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
+        <div className=" absolute -top-[800px] -right-[300px] z-10 customhideImage gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
           <div className="w-full h-full flex gap-[30px] flex-col items-center rotate-[30deg]">
             <img
               src="/assets/phone.avif"
