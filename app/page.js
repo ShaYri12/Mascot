@@ -11,7 +11,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className=" overflow-hidden">
+    <div className=" overflow-hidden min-h-screen flex flex-col justify-between">
       <header className="flex items-center w-full z-20">
         <div className="flex items-center md:p-[35px] px-4 py-[20px]">
           <img
@@ -21,8 +21,8 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="flex relative main min-h-screen items-center lg:items-start lg:h-[800px]   md:px-8 px-4 pb-4 bg-white w-full ">
-        <main className="main-div flex flex-col items-start justify-center pt-28 z-50 w-full gap-[30px] lg:max-w-[60%]">
+      <div className="flex relative main  items-center lg:items-start    md:px-8 px-4  bg-white w-full ">
+        <main className="main-div flex flex-col z-30 items-start justify-center pt-28  w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
             <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] uppercase">
               Updates
@@ -33,10 +33,10 @@ export default function Home() {
           </div>
           <div className="main-heading fade-in-up delay-2">
             <h1 className="text-[84px] font-[700] tracking-[-4px] leading-[80px] text-black">
-              Tailored Runs <br /> for Every Goal
+              Guided Runs <br /> for Every Goal
             </h1>
           </div>
-          <p className="main-para text-[17.45px] text-black fade-in-up delay-3">
+          <p className="main-para text-[17.45px] text-black w-full lg:w-[80%] xl:w-[55%] fade-in-up delay-3">
             Custom guided runs tailored to your health data. Our app provides
             the tools to enhance your fitness journey.
           </p>
@@ -50,32 +50,19 @@ export default function Home() {
               Signup for updates
             </button>
           </div>
-          <div className="download-btn1">
-            <button className="flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px]  md:mt-[140px] mb-[60px]">
-              <span>
-                <img width={27} src="/assets/Apple.svg" alt="" />
-              </span>
-              <span className="flex flex-col items-start">
-                <p className="text-[10px] ms-[5px] mb-[-8px]">
-                  Download on the
-                </p>
-                <h3 className="text-[24px] leading-0">App Store</h3>
-              </span>
-            </button>
-          </div>
         </main>
-        <div className=" absolute -top-[400px] -right-[300px] z-50 hidden lg:flex gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
+        <div className=" absolute -top-[400px] -right-[300px] z-10 hidden md:flex gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
           <div className="w-full h-full flex gap-[30px] flex-col items-center rotate-[30deg]">
             <img
               src="/assets/phone.avif"
               alt="Phone 1"
-              className="max-w-sm  2xl:max-w-lg rounded-lg"
+              className="max-w-[380px] rounded-lg"
               style={{ zIndex: 2 }}
             />
             <img
               src="/assets/phone.avif"
               alt="Phone 2"
-              className="max-w-sm  2xl:max-w-lg  rounded-lg"
+              className="max-w-[380px]  rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
@@ -83,7 +70,7 @@ export default function Home() {
             <img
               src="/assets/phone.avif"
               alt="Phone 3"
-              className="max-w-sm  2xl:max-w-lg  rounded-lg"
+              className="max-w-[380px]    rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
@@ -91,7 +78,7 @@ export default function Home() {
 
         {/* mobile screen mobile-img */}
         <div className="md:hidden flex items-center justify-center w-full fade-in-right mobile-img-mobile px-4">
-          <div className="img-box w-full h-full flex items-center">
+          <div className=" w-full h-full flex items-center">
             <img
               src="/assets/phone.avif"
               alt="Phone 1"
@@ -113,7 +100,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <footer className="flex px-8 py-[30px] text-black">
+      <footer className="flex px-8 pt-40 pb-10 z-30 text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
