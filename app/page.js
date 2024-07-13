@@ -51,7 +51,7 @@ export default function Home() {
             </button>
           </div>
         </main>
-        <div className=" absolute -top-[400px] -right-[300px] z-10 hidden md:flex gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
+        <div className=" absolute -top-[400px] -right-[300px] z-10 customhideImage gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
           <div className="w-full h-full flex gap-[30px] flex-col items-center rotate-[30deg]">
             <img
               src="/assets/phone.avif"
@@ -78,7 +78,7 @@ export default function Home() {
 
         {/* mobile screen mobile-img */}
         <div className="md:hidden flex items-center justify-center w-full fade-in-right mobile-img-mobile px-4">
-          <div className=" w-full h-full flex items-center">
+          <div className=" w-full h-full flex py-8 items-center justify-center">
             <img
               src="/assets/phone.avif"
               alt="Phone 1"
@@ -87,20 +87,8 @@ export default function Home() {
             />
           </div>
         </div>
-
-        <div className="md:hidden download-btn2">
-          <button className="shadow-lg flex items-center justify-center gap-[8px] text-white bg-[#000000] text-[15px] font-[500] rounded-full h-[70px] w-[215px] mt-[140px] mb-[60px]">
-            <span>
-              <img width={27} src="/assets/Apple.svg" alt="" />
-            </span>
-            <span className="flex flex-col items-start">
-              <p className="text-[10px] ms-[5px] mb-[-8px]">Download on the</p>
-              <h3 className="text-[24px] leading-0">App Store</h3>
-            </span>
-          </button>
-        </div>
       </div>
-      <footer className="flex px-8 pt-40 pb-10 z-30 text-black">
+      <footer className="flex px-8 py-10 md::pt-40 md:pb-10 z-30 text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
