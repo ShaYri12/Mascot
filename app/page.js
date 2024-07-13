@@ -51,18 +51,18 @@ export default function Home() {
             </button>
           </div>
         </main>
-        <div className=" absolute -top-[800px] -right-[300px] z-10 customhideImage gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
+        <div className=" absolute -top-[700px] -right-[300px] z-10 customhideImage gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
           <div className="w-full h-full flex gap-[30px] flex-col items-center rotate-[30deg]">
             <img
               src="/assets/phone.avif"
               alt="Phone 1"
-              className="max-w-[380px] rounded-lg"
+              className="max-w-[400px] rounded-lg"
               style={{ zIndex: 2 }}
             />
             <img
               src="/assets/phone.avif"
               alt="Phone 2"
-              className="max-w-[380px]  rounded-lg"
+              className="max-w-[400px]  rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
@@ -70,7 +70,7 @@ export default function Home() {
             <img
               src="/assets/phone.avif"
               alt="Phone 3"
-              className="max-w-[380px]    rounded-lg"
+              className="max-w-[400px]    rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
