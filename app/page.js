@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className=" overflow-hidden min-h-screen flex flex-col justify-between">
       <header className="flex items-center w-full z-20">
-        <div className="flex items-center md:p-[35px] px-4 py-[20px]">
+        <div className="flex items-center md:p-[35px] lg:px-20 md:px-8 px-4 py-[20px]">
           <img
             className="md:w-[173px] w-[133px]"
             src="/assets/mascotLogo.avif"
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </header>
       <div className="flex relative main  items-center lg:items-start   lg:px-20 md:px-8 px-4  bg-white w-full ">
-        <main className="main-div flex flex-col z-30 items-start justify-center pb-44  w-full gap-[30px] lg:max-w-[60%]">
+        <main className="main-div flex flex-col z-30 items-start justify-center pb-4 lg:pb-12   w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
             <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] ">
               Updates
@@ -32,21 +32,21 @@ export default function Home() {
             </p>
           </div>
           <div className="main-heading fade-in-up delay-2">
-            <h1 className="text-[84px] font-[700] tracking-[-4px] leading-[80px] text-black">
+            <h1 className="text-[96px] font-[700] tracking-[-4px] leading-[80px] text-black">
               Guided Runs <br /> for Every Goal
             </h1>
           </div>
-          <p className="main-para text-[17.45px] text-black w-full lg:w-[80%] xl:w-[55%] fade-in-up delay-3">
+          <p className="main-para text-[20px] text-black w-full lg:w-[80%] xl:w-[55%] fade-in-up delay-3">
             Custom guided runs tailored to your health data. Our app provides
             the tools to enhance your fitness journey.
           </p>
-          <div className="action-div flex flex-wrap items-center gap-4">
+          <div className="action-div flex flex-wrap items-center py-4 gap-4">
             <input
               type="email"
               placeholder="johndoe@gmail.com"
-              className="w-[300px] px-[22px] py-[13px] text-[14px] border-2 border-[#000000] rounded-full"
+              className="w-[215px] xl:w-[300px] px-[18px] xl:px-[22px] py-[11px] text-[14px] border-2 border-[#000000] rounded-full"
             />
-            <button className="shadow-md text-white bg-[#2f63f4] bg-opacity-100 hover:bg-opacity-90 text-[15px] font-[500] rounded-full h-[50px] w-[215px] transition duration-300">
+            <button className="shadow-md text-white bg-[#2f63f4] bg-opacity-100 hover:bg-opacity-90 text-[15px] font-[500] rounded-full h-[45px] w-[215px] transition duration-300">
               Get early access
             </button>
           </div>
@@ -56,13 +56,13 @@ export default function Home() {
             <img
               src="/assets/phone.avif"
               alt="Phone 1"
-              className="max-w-[400px] rounded-lg"
+              className="max-w-[410px] rounded-lg"
               style={{ zIndex: 2 }}
             />
             <img
               src="/assets/phone.avif"
               alt="Phone 2"
-              className="max-w-[400px]  rounded-lg"
+              className="max-w-[410px]  rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
@@ -70,7 +70,17 @@ export default function Home() {
             <img
               src="/assets/phone.avif"
               alt="Phone 3"
-              className="max-w-[400px]    rounded-lg"
+              className="max-w-[410px]    rounded-lg"
+              style={{ zIndex: 1 }}
+            />
+          </div>
+        </div>
+        <div className="absolute top-0 right-0 transform -translate-x-1/2 -translate-y-1/2 z-10 customImage   fade-in-right max-w-[50%]">
+          <div className="w-full h-full rotate-[30deg]">
+            <img
+              src="/assets/phone.avif"
+              alt="Phone 3"
+              className="max-w-[410px] rounded-lg"
               style={{ zIndex: 1 }}
             />
           </div>
@@ -88,7 +98,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="flex lg:px-20 lg:py-20 md:px-8 px-4 py-10 text-[11px] z-30 text-black">
+      <footer className="flex lg:px-20 lg:py-20 md:px-8 px-4 md:py-10 py-4 text-[11px] z-30 text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
