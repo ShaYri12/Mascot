@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className=" overflow-hidden min-h-screen flex flex-col justify-between">
       <header className="flex items-center w-full z-20">
-        <div className="flex items-center md:p-[35px] lg:px-20 md:px-8 px-4 py-[20px]">
+        <div className="flex items-center md:p-[35px] lg:px-[45px] md:px-8 px-4 py-[20px]">
           <img
             className="md:w-[173px] w-[133px]"
             src="/assets/mascotLogo.avif"
@@ -21,7 +21,7 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="flex relative main  items-center lg:items-start   lg:px-20 md:px-8 px-4  bg-white w-full ">
+      <div className="flex relative main  items-center lg:items-start   lg:px-[45px] md:px-8 px-4  bg-white w-full ">
         <main className="main-div flex flex-col z-30 items-start justify-center pb-4 lg:pb-12   w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
             <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] ">
@@ -36,9 +36,13 @@ export default function Home() {
               Guided Runs <br /> for Every Goal
             </h1>
           </div>
-          <p className="main-para text-[20px] text-black w-full lg:w-[80%] xl:w-[55%] fade-in-up delay-3">
-            Custom guided runs tailored to your health data. Our app provides
-            the tools to enhance your fitness journey.
+          <p className="main-para hidden xl:block text-[20px] text-black w-full fade-in-up delay-3">
+            Custom guided runs tailored to your health data. Our app provides{" "}
+            <br /> the tools to enhance your fitness journey.
+          </p>
+          <p className="main-para block xl:hidden text-[17px] text-black w-full fade-in-up delay-3">
+            Custom guided runs tailored to your health data. <br /> Our app
+            provides the tools to enhance <br /> your fitness journey.
           </p>
           <div className="action-div flex flex-wrap items-center py-4 gap-4">
             <input
@@ -51,7 +55,7 @@ export default function Home() {
             </button>
           </div>
         </main>
-        <div className=" absolute -top-[700px] -right-[300px] z-10 customhideImage gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
+        <div className=" absolute -top-[700px] -right-[265px] z-10 customhideImage gap-[80px] items-center   justify-center w-full fade-in-right max-w-[50%]">
           <div className="w-full h-full flex gap-[30px] flex-col items-center rotate-[30deg]">
             <img
               src="/assets/phone.avif"
@@ -75,7 +79,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="absolute top-0 right-0 transform -translate-x-1/2 -translate-y-1/2 z-10 customImage   fade-in-right max-w-[50%]">
+        <div className="absolute -top-[50px] right-[35px] transform -translate-x-1/2 -translate-y-1/2 z-10 customImage   fade-in-right max-w-[50%]">
           <div className="w-full h-full rotate-[30deg]">
             <img
               src="/assets/phone.avif"
@@ -98,7 +102,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="flex lg:px-20 lg:py-20 md:px-8 px-4 md:py-10 py-4 text-[11px] z-30 text-black">
+      <footer className="flex lg:px-[45px] xl:py-20 md:px-8 px-4 md:py-10 py-4 text-[11px] z-30 text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
