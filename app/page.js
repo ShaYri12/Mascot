@@ -32,7 +32,7 @@ export default function Home() {
             </p>
           </div>
           <div className="main-heading fade-in-up delay-2">
-            <h1 className="text-[86px] mdt:text-[96px] font-[700] tracking-[-4px] leading-[80px] text-black">
+            <h1 className="text-[96px] font-[700] tracking-[-4px] leading-[80px] text-black">
               Guided Runs <br /> for Every Goal
             </h1>
           </div>
@@ -48,13 +48,13 @@ export default function Home() {
             Custom guided runs tailored to your health data. Our app <br />
             provides the tools to enhance your fitness journey.
           </p>
-          <div className="action-div flex items-center py-4 gap-3 xlg:gap-4">
+          <div className="action-div flex px-[10%] sm:px-0 flex-col w-full sm:flex-row items-center py-4 gap-3 xlg:gap-4">
             <input
               type="email"
               placeholder="johndoe@gmail.com"
-              className="w-[215px] xlg:w-[300px] px-[18px] xlg:px-[22px] py-[11px] text-[14px] border-2 border-[#000000] rounded-full"
+              className="w-full sm:w-[215px] xlg:w-[300px] text-center px-[18px] xlg:px-[22px] py-[11px] text-[14px] border-2 border-[#000000] rounded-full"
             />
-            <button className="shadow-md text-white bg-[#2f63f4] bg-opacity-100 hover:bg-opacity-90 text-[15px] font-[500] rounded-full h-[45px] w-[215px] transition duration-300">
+            <button className="shadow-md text-white bg-[#2f63f4] bg-opacity-100 hover:bg-opacity-90 text-[15px] font-[500] rounded-full h-[45px] w-full sm:w-[215px] transition duration-300">
               Get early access
             </button>
           </div>
@@ -83,7 +83,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="absolute -top-[50px] -right-[35px] transform -translate-x-1/2 -translate-y-1/2 z-10 customImage   fade-in-right max-w-[50%]">
+        <div className="absolute -top-[70px] -right-[35px] transform -translate-x-1/2 -translate-y-1/2 z-10 customImage   fade-in-right max-w-[50%]">
           <div className="w-full h-full rotate-[20deg]">
             <img
               src="/assets/phone.avif"
