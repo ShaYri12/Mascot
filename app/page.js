@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </header>
       <div className="flex relative main  items-center lg:items-start   lg:px-[45px] md:px-8 px-4  bg-white w-full ">
-        <main className="main-div flex flex-col z-30 items-start justify-center pb-4 lg:pb-12   w-full gap-[30px] lg:max-w-[60%]">
+        <main className="main-div flex flex-col z-30 items-start justify-center pb-4 md:pb-12   w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
             <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] ">
               Updates
