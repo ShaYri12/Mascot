@@ -44,7 +44,7 @@ export default function Home() {
             Custom guided runs tailored to your health data. Our app <br />
             provides the tools to enhance your fitness journey.
           </p>
-          <p className="main-para block lgt:hidden text-[16px] text-black w-full fade-in-up delay-3">
+          <p className="main-para block lgt:hidden text-[15px] text-black w-full fade-in-up delay-3">
             Custom guided runs tailored to your health data. Our app <br />
             provides the tools to enhance your fitness journey.
           </p>
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="flex lg:px-[45px] lg:py-20 md:px-8 px-4 md:py-10 py-4 text-[11px] z-30 text-black">
+      <footer className="flex lg:px-[45px] md:py-20 md:px-8 px-4 py-4 text-[11px] z-30 text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
