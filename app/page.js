@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className=" overflow-hidden min-h-screen flex flex-col justify-between">
       <header className="flex items-center w-full z-20">
-        <div className="flex items-center md:p-[35px] lg:px-[45px] md:px-8 px-4 py-[20px]">
+        <div className="flex items-center md:p-[35px] md:px-[45px] sm:px-8 px-4 py-[20px]">
           <img
             className="md:w-[173px] w-[133px]"
             src="/assets/mascotLogo.avif"
@@ -21,7 +21,7 @@ export default function Home() {
           />
         </div>
       </header>
-      <div className="flex relative main  items-center lg:items-start   lg:px-[45px] md:px-8 px-4  bg-white w-full ">
+      <div className="flex relative main  items-center lg:items-start   md:px-[45px] sm:px-8 px-4  bg-white w-full ">
         <main className="main-div flex flex-col z-30 items-start justify-center pb-4 md:pb-12   w-full gap-[30px] lg:max-w-[60%]">
           <div className="main-badge flex justify-start items-center space-x-3 ps-[6px] pe-[15px] py-[6px] rounded-[40px] bg-[#D6E0FF] fade-in-up delay-1">
             <span className="bg-[#2f63f4] text-white text-[15.5px] font-bold px-[10px] py-[4px] rounded-[40px] ">
@@ -32,19 +32,19 @@ export default function Home() {
             </p>
           </div>
           <div className="main-heading fade-in-up delay-2">
-            <h1 className="text-[96px] font-[700] tracking-[-4px] leading-[80px] text-black">
+            <h1 className="text-[96px] font-[700] tracking-[-4px] leading-[80px] text-black whitespace-nowrap">
               Guided Runs <br /> for Every Goal
             </h1>
           </div>
-          <p className="main-para hidden xlg:block text-[20px] text-black w-full fade-in-up delay-3">
+          <p className="main-para hidden xlg:block text-[20px] text-black w-full fade-in-up delay-3 whitespace-nowrap">
             Custom guided runs tailored to your health data. Our app provides{" "}
             <br /> the tools to enhance your fitness journey.
           </p>
-          <p className="main-para hidden lgt:block xlg:hidden text-[17px] text-black w-full fade-in-up delay-3">
+          <p className="main-para hidden lgt:block xlg:hidden text-[17px] text-black w-full fade-in-up delay-3 whitespace-nowrap">
             Custom guided runs tailored to your health data. Our app <br />
             provides the tools to enhance your fitness journey.
           </p>
-          <p className="main-para block lgt:hidden text-[15px] text-black w-full fade-in-up delay-3">
+          <p className="main-para block lgt:hidden text-[17px] text-black w-full fade-in-up delay-3 whitespace-nowrap">
             Custom guided runs tailored to your health data. Our app <br />
             provides the tools to enhance your fitness journey.
           </p>
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="flex lg:px-[45px] md:py-20 md:px-8 px-4 py-4 text-[11px] z-30 text-black">
+      <footer className="flex md:px-[45px] md:py-20 sm:px-8 px-4 py-4 text-[11px] z-30 text-black">
         <p>© 2024 trymascot.com- All rights reserved.</p>
       </footer>
     </div>
