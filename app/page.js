@@ -40,11 +40,11 @@ export default function Home() {
             Custom guided runs tailored to your health data. Our app provides{" "}
             <br /> the tools to enhance your fitness journey.
           </p>
-          <p className="main-para hidden lgt:block xlg:hidden text-[17px] text-black w-full fade-in-up delay-3 whitespace-nowrap">
+          <p className="main-para hidden lgt:block xlg:hidden text-[17px] text-black w-full   whitespace-nowrap">
             Custom guided runs tailored to your health data. Our app <br />
             provides the tools to enhance your fitness journey.
           </p>
-          <p className="main-para block lgt:hidden text-[17px] text-black w-full fade-in-up delay-3 whitespace-nowrap">
+          <p className="main-para block lgt:hidden text-[17px] text-black w-full   whitespace-nowrap">
             Custom guided runs tailored to your health data. Our app <br />
             provides the tools to enhance your fitness journey.
           </p>
